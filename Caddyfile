@@ -4,5 +4,6 @@ jd.courtoy.io {
         proxy_header X-Real-IP {remote}
         proxy_header X-Forwarded-Proto {scheme}
     }
+    expvar /stats
     tls jd@courtoy.io
 }
